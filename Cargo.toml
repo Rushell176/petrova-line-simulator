@@ -1,0 +1,22 @@
+[package]
+name = "petrove_line"
+version = "0.1.0"
+edition = "2021"
+description = "A walkable 360-degree recreation of the Petrova Line scene from Project Hail Mary"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+anyhow = "1"
+bytemuck = { version = "1.16", features = ["derive"] }
+glam = "0.27"
+image = { version = "0.25", default-features = false, features = ["png"] }
+pollster = "0.3"
+wgpu = "0.20"
+winit = "0.30"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2

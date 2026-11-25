@@ -1,0 +1,24 @@
+/target/
+
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.log
+*.tmp
+*.bak
+*.pdb
+*.exe
+*.zip
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+!release/
+!/release/How to Play.txt
+!/release/Petrova Line Simulator.exe
+!/release/Petrova-Line-Simulator-v0.1.0-windows-x64.zip

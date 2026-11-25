@@ -1,0 +1,24 @@
+PETROVA LINE SIMULATOR v0.1.0
+
+Requirements:
+- Windows 10 or 11, 64-bit
+- A DirectX 12, Vulkan, or OpenGL-capable GPU with current drivers
+
+How to start:
+1. Extract this ZIP to a folder on your computer.
+2. Double-click "Petrova Line Simulator.exe".
+3. Click inside the game window to capture your mouse.
+
+Controls:
+- Mouse: Look around
+- W A S D: Move
+- Space: Move up
+- Shift: Move down
+- P: Toggle the lights
+- Click the projector while aiming at it: Toggle the lights
+- F11: Toggle fullscreen
+- Esc: Release the mouse / close the game
+
+The projector starts OFF. Press P or aim at the projector and click to turn it on.
+
+This is a fan-made scene recreation inspired by Project Hail Mary.
